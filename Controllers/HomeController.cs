@@ -39,5 +39,8 @@ namespace CalvinJerilNicdao.System.Web.Controllers
         {
             return View(new Users { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
+
     }
+
 }

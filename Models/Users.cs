@@ -6,6 +6,8 @@ namespace CalvinJerilNicdao.System.Web.Models
 {
     public class Users : BaseModels
     {
+        internal string RequestId;
+
         public string FirstName { get; set; }
 
         public string LastName { get; set; }
